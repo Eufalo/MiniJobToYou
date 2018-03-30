@@ -1,0 +1,62 @@
+unit CodigoVentanaPerfil;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Panel9: TPanel;
+    Panel8: TPanel;
+    Edit7: TEdit;
+    Label1: TLabel;
+    Panel2: TPanel;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Panel3: TPanel;
+    Label3: TLabel;
+    Edit2: TEdit;
+    Panel4: TPanel;
+    Label4: TLabel;
+    Panel5: TPanel;
+    Label5: TLabel;
+    Edit4: TEdit;
+    Panel6: TPanel;
+    Label6: TLabel;
+    Edit5: TEdit;
+    Panel7: TPanel;
+    Label7: TLabel;
+    Edit6: TEdit;
+    DateTimePicker1: TDateTimePicker;
+    Panel10: TPanel;
+    TrackBar1: TTrackBar;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    ScrollBox1: TScrollBox;
+    Button1: TButton;
+    Panel11: TPanel;
+    Button2: TButton;
+    procedure TrackBar1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.TrackBar1Change(Sender: TObject);
+begin
+  label9.Caption := TrackBar1.Position.ToString();
+end;
+
+end.

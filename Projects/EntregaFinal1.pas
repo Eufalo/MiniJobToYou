@@ -1,0 +1,50 @@
+unit EntregaFinal1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    Panel4: TPanel;
+    Label2: TLabel;
+    StaticText1: TStaticText;
+    StaticText2: TStaticText;
+    StaticText3: TStaticText;
+    Button2: TButton;
+    Panel5: TPanel;
+    Button6: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Image1: TImage;
+    Label6: TLabel;
+    Label7: TLabel;
+    Image2: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

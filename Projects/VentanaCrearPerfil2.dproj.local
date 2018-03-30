@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/09 19:13:54.000.642,=\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/03/09 19:15:39.000.258,\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\Unit1.pas=\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\CodigoVentanaPerfil2.pas</Transaction>
+    <Transaction>2018/03/09 19:15:39.000.258,\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\Unit1.dfm=\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\CodigoVentanaPerfil2.dfm</Transaction>
+    <Transaction>2018/03/09 19:15:47.000.428,\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\Project1.dproj=\\AB000FS01\001_Data$\21521012\Documents\Embarcadero\Studio\Projects\VentanaCrearPerfil2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
